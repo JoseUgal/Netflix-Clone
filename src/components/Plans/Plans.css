@@ -1,0 +1,33 @@
+.plansScreen__plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.plansScreen__plan:hover { opacity: 1 }
+
+.plansScreen__plan > button {
+    padding: 10px 20px;
+    background: #e50914;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.plansScreen__plan > button.active {
+    background-color: gray;
+}
+
+.plansScreen > .loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.plansScreen > p {
+    margin-top: 10px;
+}
